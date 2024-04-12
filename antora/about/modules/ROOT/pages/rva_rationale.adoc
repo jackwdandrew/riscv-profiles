@@ -1,4 +1,4 @@
-== RVA Profiles Rationale
+= RVA Profiles Rationale
 
 RISC-V was designed to provide a highly modular and extensible
 instruction set and includes a large and growing set of standard
