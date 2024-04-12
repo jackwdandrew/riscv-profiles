@@ -2,9 +2,10 @@
 
 == Changelists
 
-=== Changes made since ratification
+=== Changes made to version 1.0 since ratification
 
 - Clarified that Zihpm was optional in RVA20U64 and became mandatory in RVA22U64
+- Moved to using antora workflow
 
 === Changes since Public Review version 0.8
 
