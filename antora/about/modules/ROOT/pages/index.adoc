@@ -8,6 +8,10 @@ No changes are allowed. Any desired or needed changes can be the subject of a fo
 
 == Changelists
 
+=== Changes made since 1.0
+
+- Added rationale for RVA profiles
+
 === Changes made to version 1.0 since ratification
 
 - Moved to using antora workflow
