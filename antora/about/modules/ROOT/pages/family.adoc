@@ -1,0 +1,16 @@
+= Profile Family
+
+Every profile is a member of a _profile_ _family_.  A profile family
+is a set of profiles that share the same base ISA but which vary in
+highest-supported privilege mode.  The initial two types of family
+are:
+
+- generic unprivileged instructions (I)
+- application processors running rich operating systems (A)
+
+NOTE: More profile families may be added over time.
+
+A profile family may be updated no more than annually, and the release
+calendar year is treated as part of the profile family name.
+
+Each profile family is described in more detail below.
