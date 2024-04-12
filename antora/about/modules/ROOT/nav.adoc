@@ -1,6 +1,7 @@
 * xref:index.adoc[]
 * xref:intro.adoc[]
 * xref:profiles_vs_platforms.adoc[]
+* xref:rva_rationale.adoc[]
 * Profile Components
 ** xref:family.adoc[]
 ** xref:priv_mode.adoc[]
