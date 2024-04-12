@@ -1,0 +1,59 @@
+= Profile ISA Features
+
+An architecture profile has a mandatory ratified base instruction set
+(RV32I or RV64I for the current profiles).  The profile also includes
+ratified ISA extensions placed into two categories:
+
+. Mandatory
+. Optional
+
+As the name implies, _Mandatory_ _ISA_ _extensions_ are a required
+part of the profile.  Implementations of the profile must provide
+these.  The combination of the profile base ISA plus the mandatory ISA
+extensions are termed the profile _mandates_, and software using the
+profile can assume these always exist.
+
+The _Optional_ category (also known as _options_) contains extensions
+that may be added as options, and which are expected to be generally
+supported as options by the software ecosystem for this profile.
+
+NOTE: The level of "support" for an Optional extension will likely
+vary greatly among different software components supporting a profile.
+Users would expect that software claiming compatibility with a profile
+would make use of any available supported options, but as a bare
+minimum software should not report errors or warnings when supported
+options are present in a system.
+
+An optional extension may comprise many individually named and
+ratified extensions but a profile option requires all constituent
+extensions are present.  In particular, unless explicitly listed as a
+profile option, individual extensions are not by themselves a profile
+option even when required as part of a profile option.  For example,
+the Zbkb extension is not by itself a profile option even though it is a
+required component of the Zkn option.
+
+NOTE: Profile optional extensions are intended to capture the
+granularity at which the broad software ecosystem is expected to cope
+with combinations of extensions.
+
+All components of a ratified profile must themselves have been
+ratified.
+
+Platforms may provide a discovery mechanism to determine what optional
+extensions are present.
+
+Extensions that are not explicitly listed in the mandatory or optional
+categories are termed _non-profile_ extensions, and are not considered
+parts of the profile.  Some non-profile extensions can be added to an
+implementation without conflicting with the mandatory or optional
+components of a profile.  In this case, the implementation is still
+compatible with the profile even though additional non-profile
+extensions are present.  Other non-profile extensions added to an
+implementation might alter or conflict with the behavior of the
+mandatory or optional extensions in a profile, in which case the
+implementation would not be compatible with the profile.
+
+NOTE: Extensions that are released after a given profile is released
+are by definition non-profile extensions.  For example, mandatory or
+optional profile extensions for a new profile might be prototyped as
+non-profile extensions on an earlier profile.
