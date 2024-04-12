@@ -1,0 +1,23 @@
+= Profile Naming Convention
+
+A profile name is a string comprised of, in order:
+
+. Prefix *RV* for RISC-V.
+. A specific profile family name string.  Initially a single letter (*I*, *M*, or *A*), but later profiles may have longer family name strings.
+. A numeric string giving the first complete calendar year for which
+the profile is ratified, represented as number of years after year
+2000, i.e., *20* for profiles built on specifications ratified during 2019. The year string will be longer than two digits in the next century.
+. A privilege mode (*U*, *S*, *M*).  Hypervisor support is treated as an option.
+. A base ISA XLEN specifier (*32*, *64*).
+
+The initial profiles based on specifications ratified in 2019 are:
+
+- RVI20U32 basic unprivileged instructions for RV32I
+- RVI20U64 basic unprivileged instructions for RV64I
+- RVA20U64, RVA20S64 64-bit application-processor profiles
+
+NOTE: Profile names are embeddable into RISC-V ISA naming strings.
+This implies that there will be no standard ISA extension with a name
+that matches the profile naming convention.  This allows tools that
+process the RISC-V ISA naming string to parse and/or process a combined
+string.
