@@ -5,6 +5,6 @@ asciidoc:
     page-group: Profiles
     page-project: Profiles
     page-landing-page: ROOT::profiles.adoc
-version: 1.0
+version: "1.0"
 nav:
 - modules/ROOT/nav.adoc
