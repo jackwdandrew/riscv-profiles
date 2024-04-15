@@ -21,8 +21,10 @@
 :listing-caption: Listing
 :sectnums:
 :sectnumlevels: 5
+ifndef::site-gen-antora[]
 :toclevels: 5
 :toc: left
+endif::[]
 :source-highlighter: pygments
 ifdef::backend-pdf[]
 :source-highlighter: coderay
@@ -368,7 +370,7 @@ There are no mandatory extensions for RVI20U32.
 - *A* Atomic instructions.
 
 - *F* Single-precision floating-point instructions.
-  
+
 - *D* Double-precision floating-point instructions.
 
 NOTE: The rationale to not include Q as an optional extension is that
@@ -426,7 +428,7 @@ There are no mandatory extensions for RVI20U64.
 - *A* Atomic instructions.
 
 - *F* Single-precision floating-point instructions.
-  
+
 - *D* Double-precision floating-point instructions.
 
 NOTE: The rationale to not include Q as a profile option is that

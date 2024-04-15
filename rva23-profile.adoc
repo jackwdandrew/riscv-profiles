@@ -21,8 +21,10 @@
 :listing-caption: Listing
 :sectnums:
 :sectnumlevels: 5
+ifndef::site-gen-antora[]
 :toclevels: 5
 :toc: left
+endif::[]
 :source-highlighter: pygments
 ifdef::backend-pdf[]
 :source-highlighter: coderay
@@ -171,7 +173,7 @@ will probably not become mandatory.
 
 The following are new development options intended to become mandatory in RVA24U64:
 
-- *Zabha* Byte and Halfword Atomic Memory Operations 
+- *Zabha* Byte and Halfword Atomic Memory Operations
 - *Zacas* Compare-and-swap
 - *Ziccamoc* Main memory regions with both the cacheability and coherence PMAs
   must provide AMOCASQ level PMA support.

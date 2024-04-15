@@ -1,0 +1,11 @@
+name: profiles-rvb23
+title: RVB23
+asciidoc:
+  attributes:
+    page-group: Profiles
+    page-project: Profiles
+    page-landing-page: ROOT::profiles.adoc
+version: "0.2-draft"
+prerelease: true
+nav:
+- modules/ROOT/nav.adoc

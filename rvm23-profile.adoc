@@ -21,8 +21,10 @@
 :listing-caption: Listing
 :sectnums:
 :sectnumlevels: 5
+ifndef::site-gen-antora[]
 :toclevels: 5
 :toc: left
+endif::[]
 :source-highlighter: pygments
 ifdef::backend-pdf[]
 :source-highlighter: coderay
@@ -154,7 +156,7 @@ separate option.
 NOTE: This profile does not support Zfinx and related options.  A
 similar set of profiles, tenatively named RVN, would define Zfinx
 systems.
-  
+
 - *D* Double-precision floating-point instructions.
 
 - *V* Vector Extension.

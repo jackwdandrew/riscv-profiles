@@ -1,0 +1,9 @@
+name: profiles-rva23
+title: RVA23
+asciidoc:
+  attributes:
+    page-group: Profiles
+    page-project: Profiles
+    page-landing-page: ROOT::profiles.adoc
+version: "0.5-draft"
+prerelease: true
