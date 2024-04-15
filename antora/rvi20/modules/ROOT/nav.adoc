@@ -1,2 +1,2 @@
 * xref:index.adoc[]
-* xref:rvi20_profiles.adoc[]
+* xref:extensions.adoc[]

@@ -1,4 +1,4 @@
-= RVI20 Profiles
+= Extensions
 
 The RVI20 profiles document the initial set of unprivileged
 instructions.  These provide a generic target for software toolchains
@@ -70,7 +70,7 @@ F extensions.
 
 - *Zihpm* Hardware performance counters.
 
-=== RVI20U64
+== RVI20U64
 
 RVI20U64 specifies the ISA features available to generic unprivileged
 execution environments.
