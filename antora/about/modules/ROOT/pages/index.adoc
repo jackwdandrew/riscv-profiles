@@ -1,9 +1,9 @@
 = Preface
 
 [WARNING]
-.This document is in the link:http://riscv.org/spec-state[Ratified state]
+.This document is in the development state.
 ====
-No changes are allowed. Any desired or needed changes can be the subject of a follow-on new extension. Ratified extensions are never revised
+Do not use for implementations.  Assume everything can change.
 ====
 
 == Changelists
