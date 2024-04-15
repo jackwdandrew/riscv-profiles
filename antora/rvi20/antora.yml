@@ -1,0 +1,10 @@
+name: profiles-rvi20
+title: RVI20
+asciidoc:
+  attributes:
+    page-group: Profiles
+    page-project: Profiles
+    page-landing-page: ROOT::profiles.adoc
+version: "1.0"
+nav:
+- modules/ROOT/nav.adoc
