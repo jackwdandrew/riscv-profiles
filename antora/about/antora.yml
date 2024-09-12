@@ -6,6 +6,5 @@ asciidoc:
     page-project: Profiles
     page-landing-page: ROOT::profiles.adoc
 version: 1.1-draft
-prerelese: true
 nav:
 - modules/ROOT/nav.adoc
