@@ -1,0 +1,6 @@
+name: profiles
+title: RVx20 Profiles
+version: latest
+start_page: introduction.adoc
+nav:
+- modules/ROOT/nav.adoc

@@ -60,6 +60,8 @@ No changes are allowed. Any desired or needed changes can be the subject of a fo
 - Added new extension name Sscounterenw
 - Removed outdated text on Zicntr/Zihpm ratification plan
 
+// tag::introduction[]
+
 == Introduction
 
 RISC-V was designed to provide a highly modular and extensible
@@ -109,6 +111,8 @@ This document describes the general structure of RISC-V architecture
 profiles and also the specifics of the first few profiles: RVI20 is a
 generic RISC-V unprivileged software profile, and RVA20 and RVA22 are
 architecture profiles for application processors.
+
+// end::introduction[]
 
 == Profiles versus Platforms
 
